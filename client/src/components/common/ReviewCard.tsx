@@ -91,10 +91,10 @@ const ReviewCard = ({ review }: ReviewCardProps) => {
         <div className="flex text-yellow-400 mb-2">
           {renderStars(review.rating)}
         </div>
-        <h3 className="font-bold text-lg mb-2 font-montserrat">
-          {review.title}
-        </h3>
-        <p className="text-gray-600">{review.content}</p>
+        {/* <h3 className="font-bold text-lg mb-2 font-montserrat">
+          {review.comment}
+        </h3> */}
+        <p className="text-gray-600">{review.comment}</p>
       </div>
       <div className="flex flex-wrap gap-2">
         {Array.isArray(review.tags) &&

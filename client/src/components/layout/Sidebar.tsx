@@ -71,11 +71,11 @@ export default function Sidebar({ className }: { className?: string }) {
       label: "Bookings",
       icon: <BookDashedIcon className="w-5 h-5 mr-2" />,
     },
-    {
-      path: "/admin/settings",
-      label: "Settings",
-      icon: <Settings className="w-5 h-5 mr-2" />,
-    },
+    // {
+    //   path: "/admin/settings",
+    //   label: "Settings",
+    //   icon: <Settings className="w-5 h-5 mr-2" />,
+    // },
   ];
 
   return (
